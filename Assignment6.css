@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.flex-item {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+    order: 2;
+}
+
+.flex-item:first-child {
+    order: 1;
+}
+
+.nested-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: lightgreen;
+    margin-top: 20px;
+}
+
+.nested-flex-item {
+    background-color: lightcoral;
+    padding: 10px;
+    margin: 5px;
+}

@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.solid-color {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+}
+
+.gradient-background {
+    background: linear-gradient(to right, red, yellow);
+    padding: 20px;
+    margin: 10px;
+}
+
+.image-background {
+    background-image: url('Galaxy.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    margin: 10px;
+    height: 200px;
+}

@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: lightblue;
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.translate:hover {
+    transform: translate(50px, 50px);
+}
+
+.rotate:hover {
+    transform: rotate(45deg);
+}
+
+.scale:hover {
+    transform: scale(1.5);
+}
+
+.skew:hover {
+    transform: skew(20deg, 10deg);
+}
+
+.combined:hover {
+    transform: translate(30px, 30px) rotate(30deg) scale(1.2) skew(10deg, 5deg);
+}

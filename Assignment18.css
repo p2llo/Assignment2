@@ -1,0 +1,25 @@
+:root {
+    --main-bg-color: lightblue;
+    --main-text-color: darkblue;
+    --main-padding: 20px;
+    --main-margin: 10px;
+    --main-font-size: 18px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+.box {
+    padding: var(--main-padding);
+    margin: var(--main-margin);
+    background-color: white;
+    border: 2px solid var(--main-text-color);
+}
+
+.text {
+    font-size: var(--main-font-size);
+}
